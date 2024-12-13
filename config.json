@@ -1,0 +1,21 @@
+{
+    "mt5": {
+        "account": "79432545",
+        "password": "Lucifer@15@",
+        "server": "Exness-MT5Trial8",
+        "account_type": "zero Spread"
+    },
+    "prediction": {
+        "sequence_length": 60,
+        "confidence_threshold": 0.7,
+        "price_change_threshold": 0.001,
+        "model_path": "trained_lstm_model.h5"
+    },
+    "trading": {
+        "lot_size": 5.0,
+        "hedge_lot_size": 5.0,
+        "max_trades": 5,
+        "stop_loss_pips": 50,
+        "take_profit_pips": 100
+    }
+}
